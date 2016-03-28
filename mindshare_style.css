@@ -1,0 +1,83 @@
+/* Mindshare CSS - Test Plugin
+--------------------------------- */
+body{
+background: #f6f6f6;	
+-webkit-font-smoothing: antialiased;
+}
+p{
+font-family: 'Varela Round', sans-serif;	
+font-size: .9em;
+color: #333;
+line-height: 160%;
+}
+.wrap{
+max-width: 1000px;
+margin: 0px auto;
+}
+.clear{
+clear: both;
+height: 10px;	
+}
+h1,h2,h3{
+font-family: 'Oswald', sans-serif;
+color: #0073ae;		
+}
+h1.title{
+font-family: 'Oswald', sans-serif;
+color: #0073ae;
+font-size: 1.8em;
+text-transform: uppercase;	
+}
+a{
+color: #cc5008;
+text-decoration: none;
+font-weight: bold;	
+}
+a:hover{
+text-decoration: underline;	
+}
+/* Header
+-------------------------------- */
+header{
+padding: 1.5em 0px;
+background: #f6f6f6;
+border-bottom: 3px solid #0073ae;
+width: 100%;
+float: left;
+}
+.logo h3{	
+	float: left;
+	font-family: 'Spinnaker', sans-serif;
+	font-size: 3.0em;
+	margin: .3em;
+}
+.logo img{
+float: left;	
+}
+.top-right{
+font-family: 'Oswald', sans-serif;	
+float: right;
+color: #0073ae;
+margin: .3em;
+font-size: 2.0em;
+}
+
+/* Content
+-------------------------------- */
+.mindshare img{
+float: right;
+width: 25%;
+height: auto !important;	
+}
+pre{
+background: #333;
+padding: .8em;
+color: #ff0;
+max-width: 600px;
+}
+.item{
+background: #e2e2e2;
+padding: .8em;	
+margin: 25px 0px;
+border:1px solid #ccc;
+}
